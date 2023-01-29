@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "moudels",
+  "info": {
+    "singularName": "moudel",
+    "pluralName": "moudels",
+    "displayName": "Moudel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "questions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::question.question",
+      "mappedBy": "moudel"
+    }
+  }
+}
