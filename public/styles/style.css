@@ -5,7 +5,9 @@
 }
 
 body {
-  background-color: #f5f5f5;
+  background-image: url("/public/library.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main {
@@ -22,7 +24,6 @@ body {
   align-items: center;
   width: 100%;
   height: 10vh;
-  background-color: #f5f5f5;
 }
 
 .container__header__title {
@@ -31,7 +32,6 @@ body {
   align-items: center;
   width: 100%;
   height: 10vh;
-  background-color: #f5f5f5;
 }
 
 .header__title {
@@ -93,4 +93,4 @@ body {
   font-size: 1rem;
   font-weight: 600;
   color: #000;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
